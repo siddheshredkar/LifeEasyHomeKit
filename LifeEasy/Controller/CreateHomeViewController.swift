@@ -26,6 +26,7 @@ class CreateHomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor.black.withAlphaComponent(0.2)
         
         AddBtn.layer.cornerRadius = 15
         cancelBtn.layer.cornerRadius = 15
